@@ -17,13 +17,15 @@ clear all
 *	orders in response to the Covid-19 pandemic. Data is saved to github in 
 *	.csv form (URL shortned using git.io) -- start by downloading it: 
 
-copy "https://git.io/Jfs1I" "`c(pwd)'\NYT-SAHO-dates.csv", replace
+copy "https://git.io/JfGOg" "`c(pwd)'\NYT-SAHO-dates.csv", replace
 
 import delimited "`c(pwd)'\NYT-SAHO-dates.csv", clear
 
 *	Dates for law implementation copied from NYT (4.19.2020) -- see link below: 
 
 *		www.nytimes.com/interactive/2020/us/coronavirus-stay-at-home-order.html
+
+rm "`c(pwd)'\NYT-SAHO-dates.csv"
 
 ********************************************************************************
 *	Formatting date of implementation variable
