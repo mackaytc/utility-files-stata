@@ -65,6 +65,8 @@ eststo m4: reg mpg weight length i.rep78, robust
 *   Using Outreg to Create .rtf Document with Regression Output
 ********************************************************************************
 
+capture rm "~/Desktop/outreg-example-tables.rtf" 
+
     # d ;  
 
 *	Generate first table then export it as a .rtf file -- a couple of things to 
@@ -96,7 +98,7 @@ est restore n2;
 outreg using "~/Desktop/outreg-example-tables.rtf", replace
     keep(displacement)
     replay(t1r1)  
-    hlines(11000101)
+    hlines(1100101)
     ${outreg_opts} 
     title("{\scaps \fs24 Table I:} Outreg Example First Table")
     addrows("{\b Controls}", "", "" \
@@ -130,10 +132,10 @@ est restore m3;
 
 outreg, replay(t2r1) append(t2r2);
 
-*	Finally, export the second table using 'append' so that Table II is added
+*	Finally, export the second table using 'addtable' so that Table II is added
 *	below Table I in the .rtf document; 
 
-outreg using "~/Desktop/outreg-example-tables.rtf", append 
+outreg using "~/Desktop/outreg-example-tables.rtf", addtable 
     keep(weight length)
     replay(t2r1)  
     ${outreg_opts} 
