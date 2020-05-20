@@ -8,6 +8,6 @@ This repo contains useful bits of Stata code. Files include:
 ## Useful Links
 
 Other helpful Stata resources: 
- * [Stata cheatsheets](https://www.stata.com/bookstore/statacheatsheets.pdf)
- * [Code and Data for the Social Sciences: A Practitioner’s Guide](http://web.stanford.edu/~gentzkow/research/CodeAndData.pdf) by Gentzkow and Shapiro (2014) 
+ * [Stata cheatsheets](https://github.com/mackaytc/utility-files-stata/blob/master/pdf-guides/stata-cheat-sheets.pdf)
+ * [Code and Data for the Social Sciences: A Practitioner’s Guide](https://github.com/mackaytc/utility-files-stata/blob/master/pdf-guides/code-and-data-stata-practitioners-guide.pdf) by Gentzkow and Shapiro (2014) 
  * [A set of useful links](https://sites.google.com/site/mkudamatsu/stata) from Masayuki Kudamatsu
