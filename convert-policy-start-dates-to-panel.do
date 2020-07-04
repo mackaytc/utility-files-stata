@@ -17,7 +17,7 @@ clear all
 *	orders in response to the Covid-19 pandemic. Data is saved to github in 
 *	.csv form (URL shortned using git.io) -- start by downloading it: 
 
-copy "https://git.io/JfGO6" "`c(pwd)'\NYT-SAHO-dates.csv", replace
+copy "https://git.io/JJkZg" "`c(pwd)'\NYT-SAHO-dates.csv", replace
 
 import delimited "`c(pwd)'\NYT-SAHO-dates.csv", clear
 
