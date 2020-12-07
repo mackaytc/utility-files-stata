@@ -13,3 +13,15 @@ In no particular order:
  * [A set of useful links](https://sites.google.com/site/mkudamatsu/stata) from Masayuki Kudamatsu
  * [Code and Data for the Social Sciences: A Practitioner’s Guide](https://github.com/mackaytc/utility-files-stata/blob/master/pdf-guides/code-and-data-stata-practitioners-guide.pdf) by Gentzkow and Shapiro (2014) 
  * I really like using Sublime Text as a code editor - [here's a useful guide for getting ST set up with Stata](https://acarril.github.io/posts/use-st3)
+ 
+ ## Workflow Notes
+ 
+ I use the following programs (on a Windows PC) + packages: 
+  * [Sublime Text](https://www.sublimetext.com/) for editing `.do` files 
+    * Includes useful code highlighting, autocomplete for things like macros that Stata's built-in editor handles poorly, and useful code diff tools
+    * For running `.do` files, download the [Stata Editor](https://packagecontrol.io/packages/StataEditor) package and follow installation instructions
+  * Useful SSC packages
+    * ``egenmore``
+    * ``reghdfe``
+    * ``outreg``
+    * ``fre``
